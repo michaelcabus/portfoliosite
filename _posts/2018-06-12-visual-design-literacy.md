@@ -25,19 +25,19 @@ This is often culturally defined, depending on historical moment.
 
 While the Pre-Renaissance made a wide distinction among broad groups
 
-<img src="/assets/img/preren.png" />
+<img src="https://michaelcabus.github.io/portfoliosite/assets/img/preren.png" />
 
 *In the Pre-Renaissance, Fewer Types of Design, Keenly Separated Between Applie and Fine Art*
 
 In the time of Dondis' book (1973), there were more distinct categories, equally spaced out.
 
-<img src="/assets/img/mid20th.png" />
+<img src="https://michaelcabus.github.io/portfoliosite/assets/img/mid20th.png" />
 
 *In the 20th Century, The Types of Design are More Varied, But Still a Clear Delineation*
 
 Today, as technology is so integrated into daily life, and the commercial aspires to the artistic (a very convincing car commercial assures us that their car seats are designed by skilled artists), we likely would place our modern era in the Bauhaus timeline, which "would group and all of the fine and applied arts on one central point in the continuum".
 
-<img src="/assets/img/bauhaus.png" />
+<img src="https://michaelcabus.github.io/portfoliosite/assets/img/bauhaus.png" />
 
 *In the 21st Century, as in the Bauhaus, Design is Seen as Artistic, Artistic as Design, in a Narrow Specturm*
 
@@ -45,7 +45,7 @@ This is why UX Designers are often called to be visual designers; there is some 
 
 ## What is Visual Literacy
 
-<img src="/assets/img/shapes.png" />
+<img src="https://michaelcabus.github.io/portfoliosite/assets/img/shapes.png" />
 
 *Design is About Decision-Making; Limits Can Be Inspiring, Even if You Must Only Use Three Shapes*
 
@@ -81,7 +81,7 @@ This is the idea that design is largely intuition; this may seem bad news to tho
 I mentioned my first most memorable design school experience; my second was memorable for its sheer truthfulness.  As the group of us walked into class one day, the professor had one slide showing on the screen.
 
 
-<img src="/assets/img/tonypro.png" />
+<img src="https://michaelcabus.github.io/portfoliosite/assets/img/tonypro.png" />
 
 *Not Safe for Some Work, But Safe for Design Work. Not All Products Are Equal. This Keeps Good Designers Up At Night*
 

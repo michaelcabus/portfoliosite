@@ -5,7 +5,7 @@ date:   2018-06-12 21:11:35 -0400
 
 ---
 
-<img src="/assets/img/vintage.png" />
+<img src="https://michaelcabus.github.io/portfoliosite/assets/img/vintage.png" />
 
 *Technology becomes outdated but improvements to organizational practice last*
 
