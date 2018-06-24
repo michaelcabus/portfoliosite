@@ -5,7 +5,7 @@ date:   2018-06-12 21:11:35 -0400
 categories: design
 ---
 
-<img src="/assets/img/bricolage.png" />
+<img src="https://michaelcabus.github.io/portfoliosite/assets/img/bricolage.png" />
 
 *From <a href="https://www.slideshare.net/assocpm/wessex-event-17072015-on-becoming-a-bricoleur">On Becoming a Bricoleur</a>*
 
