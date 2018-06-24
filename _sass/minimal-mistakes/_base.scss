@@ -1,0 +1,928 @@
+/* ==========================================================================
+   BASE ELEMENTS
+
+ ========================================================================== */
+
+/*design */
+
+.layout--single p {
+    color: #000000;
+    font-family: "futura-pt";
+    font-size: .9em;
+}
+
+.layout--single .greedy-nav .site-sub-title {
+    color: #000000 !important;
+}
+
+#e-commerce, #financial-services, #open-source-software {
+    box-shadow: none;
+}
+
+#thesis-projects {
+    box-shadow: none;
+}
+/*biopage*/
+
+
+
+
+.layout--archive .greedy-nav .site-sub-title {
+
+    margin: 0 1rem;
+    margin-left: 1rem;
+    margin-left: 1rem;
+    padding: 0.5rem 0;
+    color: #002E33 !important;
+    text-decoration: none;
+    font-weight: 500 !important;
+    font-size: 38px !important;
+    font-family: "roboto-slab";
+
+}
+
+#presentfuture, #past {
+
+    box-shadow: none;
+
+}
+
+p {
+  color:#4A4A4A;
+  font-family: "futura-pt";
+  font-size: .9em;
+
+}
+
+h3 {
+color:#4A90E2;
+font-family: "futura-pt";
+}
+
+   .page__footer-copyright {
+       font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+       font-size: 0.888em !important;
+   }
+
+
+   .page__footer {
+       background-color: #F2F68D !important;
+   }
+
+   .page__footer-follow ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 60px;
+}
+
+   .page__footer {
+    color: #FF4400!important;
+    opacity: .6;
+    font-family: "europa";
+
+}
+
+   .page__meta {
+       color: lightblue !important;
+   }
+
+   .archive__item-title a {
+       color: inherit;
+       font-family: "europa";
+       text-decoration: none;
+   }
+
+   .page__meta {
+       color: lightblue;
+   }
+
+   .page__meta {
+    color: lightblue;
+}
+
+.archive__item-excerpt {
+    margin-top: 0;
+    font-size: .75em;
+    display: none;
+}
+
+   .page__title {
+       margin-top: 0;
+       line-height: 1;
+       color:#D0021B;
+ font-size: 1.33333333em;
+ font-family: "futura-pt";
+   }
+
+   .sidebar.sticky {
+       overflow-y: auto;
+       height: calc( 100vh - 90px - 2em );
+       display: none;
+   }
+
+   .archive ul {
+    padding:0px;
+    margin:0px;
+
+   }
+
+      .button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: none;
+        border: none;
+        font-size: 1em;
+        padding: 0;
+      }
+      .button:focus {
+        outline: none;
+      }
+
+      .container {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+        justify-content: center;
+      }
+
+      .button {
+        cursor: pointer;
+        flex-shrink: 0;
+        font-weight: 700;
+        display: inline-block;
+        position: relative;
+        margin: 0 0.5em;
+        font-weight: 300;
+      }
+      .button--cta {
+        padding: 1.5em 4em 1.5em 5em;
+      }
+      .button--tertiary {
+        background-color: #fffc54;
+      }
+      .button--icon {
+        height: 3em;
+        padding: 10px;
+
+      }
+      .button--round {
+        border-radius: 1.5em;
+      }
+      .button__icon {
+        left: 0.75em;
+        width: 1.5em;
+        height: 1.5em;
+        transition: transform 0.3s ease;
+        position: absolute;
+        top: 0.75em;
+        will-change: transform;
+      }
+      .button__icon--download .arrow {
+        transition: transform 0.3s ease;
+      }
+      .button__icon--medium {
+        top: 0.5em;
+        left: 0.5em;
+        width: 2em;
+        height: 2em;
+      }
+      .button__icon--large {
+        top: 0em;
+        left: 0em;
+        width: 3em;
+        height: 3em;
+      }
+      .button--cta .button__icon {
+        left: 2.5em;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .button--cta:hover .button__icon--translatex {
+        transform: translate(-10%, -50%);
+      }
+      .button--active .button__icon--download .arrow, .button--icon-hover:hover .button__icon--download .arrow {
+        transform: translateY(30%);
+      }
+      .button--active .button__icon--rotate, .button--icon-hover:hover .button__icon--rotate {
+        transform: rotate(90deg);
+      }
+      .button--active .button__icon--translatex, .button--icon-hover:hover .button__icon--translatex {
+        transform: translateX(100%);
+      }
+
+      .menu-button {
+        width: 3em;
+        height: 3em;
+        position: relative;
+      }
+      .menu-button__inner {
+        position: absolute;
+        top: 50%;
+        display: block;
+        margin-top: -2px;
+        transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        transition-duration: 75ms;
+      }
+      .menu-button:hover .menu-button__inner {
+        transition-delay: 0.16s;
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        transform: rotate(45deg);
+      }
+      .menu-button__inner:after, .menu-button__inner:before {
+        content: "";
+        display: block;
+      }
+      .menu-button__inner:after, .menu-button__inner:before, .menu-button__inner {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        transition-timing-function: ease;
+        transition-duration: 0.15s;
+        transition-property: transform;
+        background-color: #000;
+      }
+      .menu-button__inner:after {
+        bottom: -0.8em;
+        transition: bottom 75ms ease 0.12s, transform 75ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      }
+      .menu-button:hover .menu-button__inner:after {
+        bottom: 0;
+        transition: bottom 75ms ease, transform 75ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.18s;
+        transform: rotate(-90deg);
+      }
+      .menu-button__inner:before {
+        top: -0.8em;
+        transition: top 75ms ease 0.12s, opacity 75ms ease;
+      }
+      .menu-button:hover .menu-button__inner:before {
+        top: 0;
+        transition: top 75ms ease, opacity 75ms ease 0.12s;
+        opacity: 0;
+      }
+
+      .map-button {
+        width: 3em;
+        height: 3em;
+        position: relative;
+      }
+      .map-button__icon--cross {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        margin-top: -2px;
+        animation: rotateLeft 0.3s ease 0s 1 normal forwards;
+      }
+      .map-button--active .map-button__icon--cross {
+        display: block;
+      }
+      .map-button__icon--cross, .map-button__icon--cross:before {
+        background-color: #000;
+        height: 2px;
+      }
+      .map-button__icon--cross:before {
+        content: "";
+        display: block;
+        animation: rotateRight .3s ease 0s 1 normal forwards;
+      }
+      @keyframes rotateRight {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(-90deg);
+        }
+      }
+      @keyframes rotateLeft {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(45deg);
+        }
+      }
+      .map-button__icon--pin {
+        width: 3em;
+        height: 3em;
+      }
+      .map-button--active .map-button__icon--pin {
+        display: none;
+      }
+
+      .loader {
+        display: flex;
+      }
+      .loader__dot {
+        animation: 2s fadeInOut;
+        animation-iteration-count: infinite;
+        background-color: #fffc54;
+        border-radius: .5em;
+        display: block;
+        height: 1em;
+        margin-right: .5em;
+        opacity: 0;
+        width: 1em;
+      }
+      .loader__dot:nth-of-type(2) {
+        animation-delay: 0.1333333333s;
+      }
+      .loader__dot:nth-of-type(3) {
+        animation-delay: 0.2s;
+      }
+      @keyframes fadeInOut {
+        0% {
+          opacity: 0;
+          transform: scale(0.7);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        100% {
+          opacity: 0;
+          transform: scale(0.7);
+        }
+      }
+
+
+      .layout--home {
+
+        background-image:  linear-gradient(to right bottom, rgba(26, 56, 87, 0.6), rgba(0, 0, 0, 0.6)),
+        url('../img/bricolage.jpg');
+
+        background-size: cover;
+          background-size: cover !important;
+          background-position: center !important;
+      }
+
+
+
+
+      .greedy-nav {
+          position: relative;
+          display: -webkit-box;
+          display: flex;
+          -webkit-box-align: center;
+          align-items: center;
+          background: transparent !important;
+      }
+
+   html {
+     /* sticky footer fix */
+     position: relative;
+     min-height: 100%;
+   }
+
+   .greedy-nav .greedy-nav__toggle {
+       padding: 0 0.5rem;
+       align-self: stretch;
+       border: 0;
+       outline: none;
+       color: #fff;
+       background-color: #7a8288;
+       cursor: pointer;
+       display: none;
+   }
+
+   .greedy-nav .hidden-links {
+       position: absolute;
+       top: 100%;
+       right: 0;
+       margin-top: 15px;
+       padding: 5px;
+       border: 1px solid #f2f3f3;
+       border-radius: 4px;
+       background: #fff;
+       box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+       display: none !important;
+   }
+
+   /*#main {
+
+       max-width: 1280px;
+
+
+   }*/
+
+   .archive h2 {
+
+     color:#000000 !important;
+     font-weight: 100 !important;
+     background-color: #ffffff;
+     padding:20px;
+     box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+     border-radius: 2px;
+
+   }
+
+
+
+   .masthead {
+       border-bottom: none !important;
+
+
+   }
+
+
+
+   .archive__subtitle {
+       margin: 1.414em 0 0;
+       padding-bottom: 0.5em;
+       font-size: 1em;
+       border-bottom: none !important;
+       font-family: "chippewa-falls",sans-serif;
+   color: #ffffff !important;
+   font-size: 1.633333em !important;
+   }
+
+   .masthead__inner-wrap {
+       clear: both;
+       margin-left: auto;
+       margin-right: auto;
+       padding: 0px !important;
+       max-width: 100%;
+       display: -webkit-box;
+       display: flex;
+       -webkit-box-pack: justify;
+       justify-content: space-between;
+       font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+   }
+
+
+
+
+   .greedy-nav {
+       position: relative;
+       display: -webkit-box;
+       display: flex;
+       -webkit-box-align: center;
+       align-items: center;
+       font-size:72px;
+   .site-title {
+       display: block;
+       margin: 0 1rem;
+           margin-left: 1rem;
+       padding: 0.5rem 0;
+       color: #E9C451 !important;
+       text-decoration: none;
+       font-family: "bungee" !important;
+       font-weight: 500 !important;
+       text-transform: uppercase;
+
+   }
+
+   .greedy-nav__toggle {
+       padding: 0 0.5rem;
+       align-self: stretch;
+       border: 0;
+       outline: none;
+       color: #fff;
+       background-color: #7a8288;
+       cursor: pointer;
+
+   }
+   .btn {
+     display: inline-block;
+     margin: 1em 0;
+     padding: 1em 2em;
+     background: transparent;
+     border-radius: 3px;
+     font-weight: 400;
+     text-align: center;
+   }
+
+   .green{
+     background: -webkit-linear-gradient(left, #add356, #00dfa6);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+   }
+
+   .site-sub-title {
+
+     margin: 0 1rem;
+
+     margin-left: 1rem;
+
+   margin-left: 1rem;
+
+   padding: 0.5rem 0;
+
+   color: #ffffff !important;
+
+   text-decoration: none;
+
+
+   font-weight: 500 !important;
+
+   font-size: 38px !important;
+
+   font-family: "roboto-slab";
+
+   }
+
+   .site-sub-title-small {
+
+       margin: 0 1rem;
+           margin-left: 1rem;
+       padding: 0.5rem 0;
+       color: #ffffff !important;
+       text-decoration: none;
+       font-family: "europa",sans-serif !important;
+       font-weight: 500 !important;
+       font-size: 18px !important;
+   }
+
+
+   }
+
+
+html {
+  /* sticky footer fix */
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $text-color;
+  font-family: $global-font-family;
+  line-height: 1.5;
+
+  &.overflow--hidden {
+    /* when primary navigation is visible, the content in the background won't scroll */
+    overflow: hidden;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 2em 0 0.5em;
+  line-height: 1.2;
+  font-family: $header-font-family;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: $type-size-3;
+}
+
+h2 {
+  font-size: $type-size-4;
+}
+
+h3 {
+  font-size: $type-size-5;
+}
+
+h4 {
+  font-size: $type-size-6;
+}
+
+h5 {
+  font-size: $type-size-6;
+}
+
+h6 {
+  font-size: $type-size-6;
+}
+
+small,
+.small {
+  font-size: $type-size-6;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+u,
+ins {
+  text-decoration: none;
+  border-bottom: 1px solid $text-color;
+  a {
+    color: inherit;
+  }
+}
+
+del a {
+  color: inherit;
+}
+
+/* reduce orphans and widows when printing */
+
+p,
+pre,
+blockquote,
+ul,
+ol,
+dl,
+figure,
+table,
+fieldset {
+  orphans: 3;
+  widows: 3;
+}
+
+/* abbreviations */
+
+abbr[title],
+abbr[data-original-title] {
+  text-decoration: none;
+  cursor: help;
+  border-bottom: 1px dotted $text-color;
+}
+
+/* blockquotes */
+
+blockquote {
+  margin: 2em 1em 2em 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-style: italic;
+  border-left: 0.25em solid $primary-color;
+
+  cite {
+    font-style: italic;
+
+    &:before {
+      content: "\2014";
+      padding-right: 5px;
+    }
+  }
+}
+
+/* links */
+
+a {
+  &:focus {
+    @extend %tab-focus;
+  }
+
+  &:hover,
+  &:active {
+    color: $link-color-hover;
+    outline: 0;
+  }
+
+  &:visited {
+    color: $link-color-visited;
+  }
+}
+
+/* buttons */
+
+button:focus {
+  @extend %tab-focus;
+}
+
+/* code */
+
+tt,
+code,
+kbd,
+samp,
+pre {
+  font-family: $monospace;
+}
+
+pre {
+  overflow-x: auto; /* add scrollbars to wide code blocks*/
+}
+
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  font-size: $type-size-6;
+  background: $code-background-color;
+  border-radius: $border-radius;
+
+  &:before,
+  &:after {
+    letter-spacing: -0.2em;
+    content: "\00a0"; /* non-breaking space*/
+  }
+}
+
+/* horizontal rule */
+
+hr {
+  display: block;
+  margin: 1em 0;
+  border: 0;
+  border-top: 1px solid $border-color;
+}
+
+/* lists */
+
+ul li,
+ol li {
+  margin-bottom: 0.5em;
+}
+
+li ul,
+li ol {
+  margin-top: 0.5em;
+}
+
+/*
+   Media and embeds
+   ========================================================================== */
+
+/* Figures and images */
+
+figure {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 2em 0;
+
+  img,
+  iframe,
+  .fluid-width-video-wrapper {
+    margin-bottom: 1em;
+  }
+
+  img {
+    width: 100%;
+    border-radius: $border-radius;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+  }
+
+  > a {
+    display: block;
+  }
+
+  &.half {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(50% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
+
+  &.third {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(33.3333% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
+}
+
+/* Figure captions */
+
+figcaption {
+  margin-bottom: 0.5em;
+  color: $muted-text-color;
+  font-family: $caption-font-family;
+  font-size: $type-size-6;
+
+  a {
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
+}
+
+/* Fix IE9 SVG bug */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*
+   Navigation lists
+   ========================================================================== */
+
+/**
+ * Removes margins, padding, and bullet points from navigation lists
+ *
+ * Example usage:
+ * <nav>
+ *    <ul>
+ *      <li><a href="#link-1">Link 1</a></li>
+ *      <li><a href="#link-2">Link 2</a></li>
+ *      <li><a href="#link-3">Link 3</a></li>
+ *    </ul>
+ *  </nav>
+ */
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* override white-space for nested lists */
+  ul li,
+  ol li {
+    margin-bottom: 0;
+  }
+
+  li ul,
+  li ol {
+    margin-top: 0;
+  }
+}
+
+/*
+   Global animation transition
+   ========================================================================== */
+
+b,
+i,
+strong,
+em,
+blockquote,
+p,
+q,
+span,
+figure,
+img,
+h1,
+h2,
+header,
+input,
+a,
+tr,
+td,
+form button,
+input[type="submit"],
+.btn,
+.highlight,
+.archive__item-teaser {
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
+}
+
+@media only screen and (max-width: 600px) {
+  .greedy-nav {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 72px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.archive ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.button {
+    cursor: pointer;
+    flex-shrink: 0;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    margin: 0 0.5em;
+    font-weight: 300;
+    width: 100%;
+}
+
+}
