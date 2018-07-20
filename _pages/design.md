@@ -29,7 +29,27 @@ I’ve developed information architecture; content strategy; and mobile designs 
 
 ## Financial Services
 
-I’m currently working on an app for financial decision-making, and on design for an internal CRM system
+I designed an app for financial decision-making, and on a design for an internal CRM system.
+
+*Below are some examples from some projects I worked on*
+
+<img src="../assets/img/CustomerJourneyRoadMap.png" />
+
+*I created service design diagrams that mapped experience of consumers and employees, to better understand how the application will affect the business throughout departments. This gave a better sense of the data and information flow needed for the application*
+
+<img src="../assets/img/mobileRefiance1.png" />
+
+<img src="../assets/img/mobileRefinancev2.png" />
+
+<img src="../assets/img/mobileRefinance3.png" />
+
+*I translated a data set for the design of a consumer-facing app, helping consumers make financial decisions*
+
+<img src="../assets/img/CRMexample.png" />
+
+*I also worked on an interfaces for an internal CRM system, translating requirements to interfaces; and improving the usability of existing interfaces*
+
+
 
 <a href="#" class="page__taxonomy-item" rel="tag">Sketch</a>
 
