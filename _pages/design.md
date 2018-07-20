@@ -33,7 +33,7 @@ I designed an app for financial decision-making, and on a design for an internal
 
 *Below are some examples from some projects I worked on*
 
-<img src="../assets/img/CustomerJourneyRoadMap.png" />
+<img src="https://michaelcabus.github.io/portfoliosite/assets/img/CustomerJourneyRoadmap.png" />
 
 *I created service design diagrams that mapped experience of consumers and employees, to better understand how the application will affect the business throughout departments. This gave a better sense of the data and information flow needed for the application*
 
