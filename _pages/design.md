@@ -11,6 +11,8 @@ layout: archive
 
 I've worked in design, writing, and technology my entire career.  Currently, in addition to my full-time job, I provide technology and design consulting for non-profits.  I designed a new web site for Little Elm Public Library recently, and am currently a technical consultant for Barbershop Books, a non-profit that connects young people to books.
 
+I have a slide deck of recent work. Please <a href="../assets/img/designworkPresentation.pdf">check it out</a>!
+
 ## E-Commerce
 
 I’ve developed information architecture; content strategy; and mobile designs for e-commerce brands, focused on hardware, pet supplies and organic food.
