@@ -13,6 +13,7 @@ I've worked in design, writing, and technology my entire career.  Currently, in 
 
 I have a slide deck of recent work. Please <a href="../assets/img/designworkPresentation.pdf">check it out</a>!
 
+
 ## E-Commerce
 
 I’ve developed information architecture; content strategy; and mobile designs for e-commerce brands, focused on hardware, pet supplies and organic food.
